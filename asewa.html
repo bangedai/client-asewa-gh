@@ -11,22 +11,36 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">Asewa <span>.</span></a>
-        
-        <ul class="navigation">
-            <li><a href="#banner">Home</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#menu">Our services</a></li>
-            <li><a href="#expert">FAQ</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <hr>
-            <li><i class="fa-solid fa-phone"></i></li>
-            <li><a href="#contact">980000000</a></li>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">Asewa <span>.</span></div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li class="services1">
+              <a href="/">Services</a>
+              <!-- DROPDOWN MENU -->
+              <ul class="dropdown">
+                <li><a href="/">Dropdown 1 </a></li>
+                <li><a href="/">Dropdown 2</a></li>
+                <li><a href="/">Dropdown 2</a></li>
+                <li><a href="/">Dropdown 3</a></li>
+                <li><a href="/">Dropdown 4</a></li>
+              </ul>
+            </li>
+            <li><a href="/">Pricing</a></li>
+            <li><a href="/">Contact</a></li>
+          </div>
         </ul>
-        
-    </header>
-    <section class="banner" id="banner">
+      </nav>
+     
+      <section class="banner" id="banner">
         <div class="content">
             <h2>Financial Solutions That Can help Your Business Grow</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolorem. Rem, sint? Illum rerum eligendi eius 
@@ -263,10 +277,16 @@
                 
             </div>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde labore quae,</p>
-            <a href="#" class="btn">Get A quote</a>
+            <a href="#" class="btn">Call Us</a>
         </div>
         
     </div>
 
+
+
+    <script>
+
+
+    </script>
 </body>
 </html>
